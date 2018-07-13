@@ -4,8 +4,9 @@ require 'ostruct'
 require 'excon'
 
 module SoaWrapper
-  def config
-    config = OpenStruct.new(YAML.load_file(Rails.root.join("config", "soa_wrapper.yml")))
+  def self.config
+    config = OpenStruct.new(YAML.load_file(Rails.root.join("config", "initializers", "soa_wrapper_initializer.yml")))
     @response = Excon.get(config.Eko['path'])
   end
+
 end
