@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vivek Choksi"]
   spec.email         = ["mail.vivekchoksi@gmail.com"]
 
-  spec.summary       = %q{This is a soa wrapper gem}
-  spec.description   = %q{This is a soa wrapper gem}
+  spec.summary       = %q{This is currently under tesing. No need to download.}
+  spec.description   = %q{This is currently under tesing. No need to download.}
   # spec.homepage      = ""
   spec.license       = "MIT"
 
